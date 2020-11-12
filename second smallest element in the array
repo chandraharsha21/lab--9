@@ -1,0 +1,7 @@
+h=[]
+size=int(input("Enter the size"))
+for i in range(size):
+    val=int(input("Enter the number in arrays"))
+    h.append(val)
+h.sort()
+print("second min number =",h[1])
